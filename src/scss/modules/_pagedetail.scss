@@ -1,0 +1,84 @@
+.pagedetail-title {
+  color: #00d1de;
+  font-family: "Tusker Grotesk";
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pagedetail-bold {
+  color: #00d1de;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.pagedetail-light {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.pagedetail-categorie {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.pagedetail-promotion {
+  padding-top: 80px;
+  width: 579.702px;
+  height: 1031px;
+  flex-shrink: 0;
+  aspect-ratio: 579.7/1031;
+  margin: auto;
+}
+
+.pagedetail-description {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.pagedetail-next {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: capitalize;
+  display: flex;
+  width: 1180px;
+  height: 61px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-bottom: 165px;
+}

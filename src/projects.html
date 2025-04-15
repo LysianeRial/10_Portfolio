@@ -8,68 +8,48 @@
   </head>
   <body>
     <extends src="header.html"></extends>
-    <a href="index.html">Accueil</a>
-    <h1>Projets</h1>
+
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <h1>Projets</h1>
+          <h1 class="projets-title">Projets</h1>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-9">
-          <p>Catégories</p>
+    <div class="projets-groupcategorie">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <p class="projets-categorie">Vidéo - Graphic Design - UI - Photo</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <p>image projet affiche eikon</p>
-        </div>
-        <div class="col-7">
-          <p>image projet ui surfskate</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <p>image projet affiche graphisme evan</p>
-        </div>
-        <div class="col-7">
-          <p>image projet vidéo vitamin well</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <p>image projet photo queen</p>
-        </div>
-        <div class="col-7">
-          <p>image projet ui babylon</p>
+    <div class="projets">
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <a href="pagedetail.html"
+              ><img class="projets-promotion" src="img/promotion.png"
+            /></a>
+            <img class="projets-pocker" src="img/pocker.png" />
+            <img class="projets-queen" src="img/queen.png" />
+            <img class="projets-arbre" src="img/arbre.png" />
+          </div>
+          <div class="col-7">
+            <img class="projets-surfskate" src="img/surfskate.png" />
+            <img class="projets-divided" src="img/divided.png" />
+            <img class="projets-brouillard" src="img/brouillard.png" />
+            <img class="projets-babylon" src="img/babylon.png" />
+            <img class="projets-blackbird" src="img/blackbird.png" />
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <p>image projet photo arbre</p>
-        </div>
-        <div class="col-7">
-          <p>image projet vidéo blackbird security</p>
-        </div>
-      </div>
-    </div>
-    <extends src="footer.html"></extends>
+    <extends src="footer.html" locals='{"color":"blue"}'></extends>
 
     <script src="js/main.js" type="module"></script>
   </body>

@@ -1,1 +1,35 @@
+.apropos-text {
+  display: flex;
+  width: 702px;
+  height: 630px;
+  padding: 20px 50px 20px 120px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  background: #f00;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
 
+.apropos-salamandretext {
+  padding-bottom: 200px;
+}
+
+.apropos-salamandre {
+  max-width: 500px;
+}
+
+.apropos-photo {
+  display: flex;
+  width: 578.797px;
+  height: 566px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 578.8/566;
+}

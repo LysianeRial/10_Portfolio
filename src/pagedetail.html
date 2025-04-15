@@ -12,20 +12,40 @@
   </head>
   <body>
     <extends src="header.html"></extends>
-    <h1>Page détail</h1>
 
     <div class="container">
       <div class="row">
         <div class="col-10">
-          <p>Graphic Design</p>
+          <p class="pagedetail-title">Graphic Design</p>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <p>Infos sur projet</p>
+    <div class="pagedetail-categorie">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <p class="pagedetail-bold">Titre</p>
+          </div>
+          <div class="col-2">
+            <p class="pagedetail-light">Promotion</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <p class="pagedetail-bold">Année</p>
+          </div>
+          <div class="col-2">
+            <p class="pagedetail-light">2024</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <p class="pagedetail-bold">Logiciel</p>
+          </div>
+          <div class="col-2">
+            <p class="pagedetail-light">Photoshop</p>
+          </div>
         </div>
       </div>
     </div>
@@ -33,10 +53,10 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <p>image projet</p>
+          <img class="pagedetail-promotion" src="img/Promotion.png" />
         </div>
         <div class="col-6">
-          <p>image projet</p>
+          <img class="pagedetail-promotion" src="img/Promotion2.png" />
         </div>
       </div>
     </div>
@@ -44,7 +64,22 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p>texte descriptif du projet</p>
+          <p class="pagedetail-description">
+            Ce projet avait pour objectif de réaliser deux affiches
+            complémentaires afin de donner envie de découvrir l’école Eikon. Ces
+            affiches étaient reliées par une suite de phrases formant un slogan,
+            créant ainsi une continuité et une dynamique entre les deux visuels.
+            La première affiche devait présenter une image d’un projet en cours
+            de réalisation, illustrant le processus créatif et le travail des
+            étudiants. La seconde, quant à elle, devait mettre en avant le
+            projet finalisé, mettant en lumière le résultat abouti et la qualité
+            des productions réalisées à Eikon. L’idée était d’attirer
+            l’attention du spectateur, de l’immerger dans l’univers de l’école
+            et de lui donner envie d’en savoir plus. Le choix des images, des
+            couleurs et de la typographie a été soigneusement réfléchi afin de
+            transmettre les valeurs de l’établissement et de souligner son
+            engagement envers la créativité et l’innovation.
+          </p>
         </div>
       </div>
     </div>
@@ -52,12 +87,12 @@
     <div class="container">
       <div class="row">
         <div class="col-2">
-          <p>Suivant</p>
+          <p class="pagedetail-next">Suivant</p>
         </div>
       </div>
     </div>
 
-    <extends src="footer.html"></extends>
+    <extends src="footer.html" locals='{"color":"blue"}'></extends>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

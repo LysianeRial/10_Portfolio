@@ -1,3 +1,15 @@
 .l-footer {
   background-color: #f00;
+
+  &.blue {
+    background-color: #00d1de;
+  }
+
+  &.yellow {
+    background-color: #ffc700;
+  }
+}
+
+.l-spacing {
+  height: 220px;
 }

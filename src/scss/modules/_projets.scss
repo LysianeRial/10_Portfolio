@@ -1,0 +1,118 @@
+.projets {
+  padding-top: 60px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+
+.projets-title {
+  color: #00d1de;
+  font-family: "Tusker Grotesk";
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.projets-categorie {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.projets-promotion {
+  display: flex;
+  width: 478px;
+  height: 850px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 239/425;
+}
+
+.projets-surfskate {
+  display: flex;
+  width: 680px;
+  height: 510px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 4/3;
+}
+
+.projets-pocker {
+  display: flex;
+  width: 478px;
+  height: 717px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 2/3;
+}
+
+.projets-queen {
+  width: 478px;
+  height: 478px;
+  flex-shrink: 0;
+}
+
+.projets-arbre {
+  display: flex;
+  width: 480px;
+  height: 672px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 5/7;
+}
+
+.projets-divided {
+  display: flex;
+  width: 680px;
+  height: 383px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 680/383;
+}
+
+.projets-brouillard {
+  display: flex;
+  width: 681px;
+  height: 488px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 681/488;
+}
+
+.projets-babylon {
+  display: flex;
+  width: 680px;
+  height: 510px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 4/3;
+}
+
+.projets-blackbird {
+  display: flex;
+  width: 680px;
+  height: 395px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  aspect-ratio: 136/79;
+}
+
+.projets-groupcategorie {
+  padding-top: 50px;
+}

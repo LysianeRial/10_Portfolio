@@ -8,33 +8,44 @@
   </head>
   <body>
     <extends src="header.html"></extends>
-    <h1>A propos</h1>
+
     <div class="container">
       <div class="row">
         <div class="col-6">
           <h1>A propos</h1>
-          <p>moi</p>
+          <img class="apropos-photo" src="img/photo.png" />
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-7">
-          <p>text description</p>
+    <div class="apropos-salamandretext">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img class="apropos-salamandre" src="img/salamandre_a_propos.png" />
+          </div>
+
+          <div class="col-7">
+            <p class="apropos-text">
+              Étudiante à l’Eikon, je suis passionnée par les arts des médias
+              sous toutes leurs formes. Du design graphique à l’audiovisuel, en
+              passant par l’interactivité et le digital, j’aime explorer les
+              multiples facettes de la création visuelle.
+              <br />
+              Curieuse et toujours en quête de nouvelles inspirations, je
+              cherche à allier technique et créativité pour concevoir des
+              projets percutants et innovants. Mon objectif ? Donner du sens aux
+              images, raconter des histoires et créer des expériences visuelles
+              qui marquent les esprits.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <p>dessin salamandre</p>
-        </div>
-      </div>
-    </div>
+    <div class="container"></div>
 
-    <extends src="footer.html"></extends>
+    <extends src="footer.html" locals='{"color":"red"}'></extends>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
