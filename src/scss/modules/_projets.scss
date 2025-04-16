@@ -33,6 +33,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 239/425;
+  padding-top: 30px;
 }
 
 .projets-surfskate {
@@ -43,6 +44,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 4/3;
+  padding-top: 30px;
 }
 
 .projets-pocker {
@@ -54,12 +56,14 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 2/3;
+  padding-top: 30px;
 }
 
 .projets-queen {
   width: 478px;
   height: 478px;
   flex-shrink: 0;
+  padding-top: 30px;
 }
 
 .projets-arbre {
@@ -71,6 +75,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 5/7;
+  padding-top: 30px;
 }
 
 .projets-divided {
@@ -81,6 +86,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 680/383;
+  padding-top: 30px;
 }
 
 .projets-brouillard {
@@ -91,6 +97,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 681/488;
+  padding-top: 30px;
 }
 
 .projets-babylon {
@@ -101,6 +108,7 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 4/3;
+  padding-top: 30px;
 }
 
 .projets-blackbird {
@@ -111,8 +119,16 @@
   align-items: center;
   flex-shrink: 0;
   aspect-ratio: 136/79;
+  padding-top: 30px;
 }
 
 .projets-groupcategorie {
   padding-top: 50px;
+}
+
+.projets-vitaminwell {
+  width: 681px;
+  height: 383px;
+  flex-shrink: 0;
+  padding-top: 30px;
 }

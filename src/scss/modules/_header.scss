@@ -11,3 +11,25 @@
   line-height: normal;
   padding-top: 20px;
 }
+
+.header-hover {
+  transition-property: color, font-weight;
+  transition-duration: 0.5s;
+}
+
+.header-hover:hover {
+  color: red;
+
+  &.headerblue {
+    color: #00d1de;
+  }
+
+  &.headeryellow {
+    color: #ffc700;
+  }
+
+  &.headerwhite {
+    color: white;
+    font-weight: bold;
+  }
+}
